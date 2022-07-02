@@ -38,6 +38,9 @@
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="28"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Ask"/>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O7a-D2-BG8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -51,6 +54,10 @@
                             <constraint firstItem="Y5u-ht-bcb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lhh-7d-nwa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="askButton" destination="aHL-rw-Ads" id="ZP4-JQ-WeQ"/>
+                        <outlet property="imageView" destination="Y5u-ht-bcb" id="XmG-b2-nOI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
